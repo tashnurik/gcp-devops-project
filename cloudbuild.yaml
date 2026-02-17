@@ -6,4 +6,4 @@ images:
 - 'gcr.io/$PROJECT_ID/gcpdevops' # Uploads our Image to our project
 
 options:
-  logging: NONE
+  logging: NONE # Lgging NONE
