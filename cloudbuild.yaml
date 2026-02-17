@@ -6,4 +6,5 @@ images:
 - 'gcr.io/projectjune-427523/gcpdevops' # Uploads our Image to our project
 
 
-
+options:
+  logging: CLOUD_LOGGING_ONLY
