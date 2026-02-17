@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://json.schemastore.org/cloudbuild.json
 steps:
 - name: 'docker'
-  args: ['build','-t','gcr.io/$PROJECT_ID/gcpdevops','.'] # Builds our Docker Image
+  args: ['build','-t','gcr.io/projectjune-427523/gcpdevops','.'] # Builds our Docker Image
 images:
-- 'gcr.io/$PROJECT_ID/gcpdevops' # Uploads our Image to our project
+- 'gcr.io/projectjune-427523/gcpdevops' # Uploads our Image to our project
 
-options:
-  logging: NONE # Lgging NONE
+
+
